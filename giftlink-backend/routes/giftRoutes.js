@@ -1,4 +1,5 @@
 const connectToDatabase = require("../models/db");
+const router = require("express").Router();
 router.get('/', async (req, res) => {
     try {
         // Task 1: Connect to MongoDB and store connection to db constant
